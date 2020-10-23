@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Evaluacion</string>
+    <string name="login_correo">Correo</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="password">Password</string>
+    <string name="crearcuenta">Crear cuenta</string>
+    <string name="textviewhome">Bievenido al home de la aplicación ~~~~~~~~~~~~~~~~~~~~~~~~~</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
+    <string name="pass">Contraseña</string>
+    <string name="repetirpass">Repetir contraseña</string>
+    <string name="regresar">Regresar</string>
+    <string name="ingresardatos">Ingresar sus datos:</string>
+    <string name="admincorreo">Email: admin@mail.com</string>
+    <string name="adminpassword">Contraseña: admin</string>
+</resources>
