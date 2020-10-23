@@ -16,7 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/textlogo" />
 
     <EditText
         android:id="@+id/edtMain_Correo"
@@ -26,7 +27,9 @@
         android:hint="@string/login_correo"
         app:layout_constraintBottom_toTopOf="@+id/edtMain_Clave"
         tools:layout_editor_absoluteX="15dp"
-        style="@style/AppTheme.edtEvaluacion"/>
+        style="@style/AppTheme.edtEvaluacion"
+        android:inputType="textWebEmailAddress"
+        android:importantForAutofill="no"/>
 
     <EditText
         android:id="@+id/edtMain_Clave"
@@ -37,7 +40,8 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/button"
         tools:layout_editor_absoluteX="15dp"
-        style="@style/AppTheme.edtEvaluacion"/>
+        style="@style/AppTheme.edtEvaluacion"
+        android:importantForAutofill="no"/>
 
     <Button
         android:id="@+id/button"

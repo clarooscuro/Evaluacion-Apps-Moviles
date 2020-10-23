@@ -13,4 +13,5 @@
     <string name="ingresardatos">Ingresar sus datos:</string>
     <string name="admincorreo">Email: admin@mail.com</string>
     <string name="adminpassword">Contraseña: admin</string>
+    <string name="textlogo">Logo de twitch</string>
 </resources>

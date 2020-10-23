@@ -19,6 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.405"
         style="@style/AppTheme.titulosEvaluacion"
+
         />
 
     <EditText
@@ -34,7 +35,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.118"
-        style="@style/AppTheme.edtEvaluacion"/>
+        style="@style/AppTheme.edtEvaluacion"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
 
     <EditText
         android:id="@+id/editText"
@@ -48,7 +51,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.218"
-        style="@style/AppTheme.edtEvaluacion"/>
+        style="@style/AppTheme.edtEvaluacion"
+        android:inputType="textWebEmailAddress"
+        android:importantForAutofill="no"/>
 
     <EditText
         android:id="@+id/editText3"
@@ -62,7 +67,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.433"
-        style="@style/AppTheme.edtEvaluacion"/>
+        style="@style/AppTheme.edtEvaluacion"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"/>
 
     <EditText
         android:id="@+id/editText2"
@@ -76,7 +83,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         app:layout_constraintVertical_bias="0.0"
-        style="@style/AppTheme.edtEvaluacion"/>
+        style="@style/AppTheme.edtEvaluacion"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"/>
 
     <Button
         android:onClick="goToLogin"
